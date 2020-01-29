@@ -1,3 +1,167 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+* {
+    box-sizing: border-box;
+}
 
+html, body {
+	height: 100%;
+	
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+* {
+	display: flex;
+}
+.container {
+	width: 90%;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	align-items: stretch;
+	text-align: center;
+	padding: 20px;
+}
+.nav_flex{
+	display: flex;
+	height: 60px;
+    width: 100%;
+    font-size: 35px;
+	justify-content: space-evenly;
+	flex-direction: row;
+    text-align: center;
+    align-content: center;
+    padding-bottom:10px;
+}
+nav a {
+	width: 13.6%;
+	color: lightgray;
+	font-size: 20px;
+	text-decoration: none;
+    text-align: center;
+    align-self: center;
+
+}
+nav a:hover {
+	background: gray;
+	color: red;
+}
+nav a .logo:hover{
+	background: white;
+}
+.logo { 
+	width: 13.6%;
+}
+
+header {
+	display: flex;
+	width: 100%;
+	margin: 1%;
+	justify-content: space-between;
+	height: 500px;
+	flex-direction: row;
+    padding: 10px;
+}
+.slogan_flex {
+	display: flex;
+	width: 44%;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+}
+.matrix{
+	height:auto;
+	width: 90%;
+	padding: 20px;
+}
+.slogan {
+	 height: auto;
+	 padding: 20px;
+	 font-size: 80px;
+}
+button {
+	font-size: 50px;
+}
+button:hover {
+	background: gray;
+	color: red;
+}
+.block-1 {
+	border-top: 1px solid black;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	height: 250px;
+}
+.block-info {
+	display: flex;
+	 font-size: 15px;
+	 text-align: center;
+	 width: 44.25%;
+	 height: 80px;
+	 margin: 1%;
+	 flex-direction: column;
+	 align-self: center;
+
+}
+.middle-img {
+	width: 90%;
+	text-align: center;
+}
+.block-2 {
+	border-top: 1px solid black;
+	padding: 20px;
+	margin: 1%;
+	display: flex;
+	flex-direction: row;
+	height: 250px;
+	align-content: center;
+}
+section h4{
+	width: 200px;
+	text-align: center;
+}
+.block-2 .block-info {
+	display: flex;
+	 font-size: 15px;
+	 text-align: center;
+	 width: 32.3%;
+	 height: 120px;
+	 margin: 1%;
+	 flex-direction: column;
+	 align-self: center;
+
+}
+footer {
+	border-top: 1px solid black;
+	width: 90%;
+	height: 400px;
+	margin: 1%;
+	display: flex;
+    flex-direction: column;
+    font-size:15px;
+}
+address{
+	display: flex;
+	margin: 1%;
+	height:300px;
+	flex-direction: column;
+
+	
+}
+#copyrite {
+    display: flex;
+	font-size: 20px;
+    text-align: center;
+    align-self: center;
+    width: 90%;
+    margin-left: 50%;
+    justify-content: center;
+	
+}
