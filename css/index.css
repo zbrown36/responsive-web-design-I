@@ -180,6 +180,7 @@ address{
 	margin: 1%;
 	height:300px;
 	flex-direction: column;	
+	text-align:left;
 }
 #copyrite {
     display: flex;
@@ -188,7 +189,6 @@ address{
     align-self: center;
     width: 90%;
 	justify-content: center;
-	padding-left: 50px;
 	
 }
 /* tablet view*/
@@ -272,14 +272,18 @@ address{
 	}
 	.block-1 {
 		flex-direction: column;
-		height: 700px;
+		height: 350px;
 	}
 	.block-2 {
 		flex-direction: column;
-		height: 800px;
+		height: 500px;
 	}
 	.block-info {
 		width: 100%;
-		height: auto;
+		text-align: left;
+	}
+	.block-2 .block-info {
+		width:100%;
+		text-align: left;
 	}
 }
